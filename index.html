@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirol's Notepad</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1>Nirol's Notepad</h1>
+    <div class="container">
+
+        <div class="buttons">
+            <button id="normal"><span>A</span></button>
+            <button id="bold"><i class="fas fa-bold"></i></button>
+            <button id="italic"><i class="fas fa-italic"></i></button>
+            <button id="slash"><i class="fas fa-strikethrough"></i></button>
+            <button id="underline"><i class="fas fa-underline"></i></button>
+            <button id="left"><i class="fas fa-align-left"></i></button>
+            <button id="center"><i class="fas fa-align-center"></i></button>
+            <button id="right"><i class="fas fa-align-right"></i></button>
+            <button id="justify"><i class="fas fa-align-justify"></i></button>
+            <label for="sizeFont"><i class="fas fa-text-height"></i></label>
+            <select name="sizeFont" id="fontSize">
+                <option value="" selected>-</option>
+                <option value="12">12px</option>
+                <option value="14">14px</option>
+                <option value="16">16px</option>
+                <option value="18">18px</option>
+                <option value="20">20px</option>
+            </select>
+        </div>
+
+
+    </div>
+
+    <div><textarea id="textEditor" contenteditable></textarea></div>
+
+
+    <script src="https://kit.fontawesome.com/11df3f8183.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

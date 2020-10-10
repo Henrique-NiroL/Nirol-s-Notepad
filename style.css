@@ -1,0 +1,40 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: dimgrey;
+    }
+    
+    .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 10px 110px;
+        max-width: 60vw;
+        position: relative;
+    }
+    
+    .container span {
+        font-weight: 900;
+        z-index: 10;
+    }
+    
+    h1 {
+        display: flex;
+        margin: auto 400px;
+        position: relative;
+        color: white;
+    }
+    
+    #textEditor {
+        position: relative;
+        width: 60vw;
+        height: 85vh;
+        margin: auto 100px;
+        border: 2px solid black;
+        font-weight: normal;
+        background: white;
+    }
